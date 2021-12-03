@@ -3,7 +3,9 @@ This repo contains an implementation of a collaborative text block-list for
 [Matrix](https://matrix.org/). The block-list is enforced by a bot and the
 current implementation is geared toward end-to-end encrypted (E2EE) rooms. As
 such, we use [Pantalaimon](https://matrix.org/docs/projects/other/pantalaimon)
-to handle the encryption and decryption of messages.
+to handle the encryption and decryption of messages. We make use of the
+[Matrix bot SDK](https://github.com/turt2live/matrix-bot-sdk) to implement
+the bot.
 
 In order to run the bot, you'll have to enter the
 proper credentials into a file called config.yaml. Create an account for your
