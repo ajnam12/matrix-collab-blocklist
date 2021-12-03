@@ -1,6 +1,14 @@
-# Collaborative Block-listing Bot
+# Collaborative Block-listing Bot for Matrix
+This repo contains an implementation of a collaborative text block-list for
+[Matrix](https://matrix.org/). The block-list is enforced by a bot and the
+current implementation is geared toward end-to-end encrypted (E2EE) rooms. As
+such, we use [Pantalaimon](https://matrix.org/docs/projects/other/pantalaimon)
+to handle the encryption and decryption of messages.
+
 In order to run the bot, you'll have to enter the
-proper credentials into config.yaml
+proper credentials into a file called config.yaml. Create an account for your
+bot and place the username and password associated with that account into the
+config.yaml file.
 
 Then, you can run the bot as follows:
 ```
